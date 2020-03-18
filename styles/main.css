@@ -1,0 +1,18 @@
+/* Estilos para el "body" */
+.cambiotexto{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-width: 100vw;
+   min-height: 100vh;
+   margin: 0px auto;
+   flex-direction: column;
+   font-family: sans-serif;
+}
+
+/* Estilos para la parte donde aparece el texto */
+.cambiotexto__parrafo{
+    background-color: lightsalmon;
+    padding: 20px 25px;
+    text-transform: uppercase;
+}
